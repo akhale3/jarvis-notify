@@ -1,0 +1,25 @@
+{
+  "name": "jarvis-notify",
+  "version": "0.0.1",
+  "description": "An email and slack-integrated plugin for jarvis-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhale3/jarvis-notify.git"
+  },
+  "keywords": [
+    "email",
+    "slack",
+    "jarvis",
+    "plugin"
+  ],
+  "author": "Anish Khale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhale3/jarvis-notify/issues"
+  },
+  "homepage": "https://github.com/akhale3/jarvis-notify#readme"
+}
