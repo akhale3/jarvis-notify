@@ -21,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/akhale3/jarvis-notify/issues"
   },
-  "homepage": "https://github.com/akhale3/jarvis-notify#readme"
+  "homepage": "https://github.com/akhale3/jarvis-notify#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "nodemailer": "^2.6.4",
+    "nodemailer-markdown": "^1.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-nibble": "^3.1.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-one-variable-per-var": "0.0.3"
+  }
 }
