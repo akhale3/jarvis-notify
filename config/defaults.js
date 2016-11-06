@@ -6,14 +6,14 @@ module.exports = {
     return {
       recipients: options.recipients || '',
       template: options.body || '',
-      email: process.env.MAIL_ADDRESS,
-      password: process.env.MAIL_PASSWORD,
-      from: process.env.MAIL_NAME + ' <' + process.env.MAIL_ADDRESS + '>',
-      subject: options.subject || process.env.MAIL_SUBJECT,
+      email: options.email,
+      password: options.password,
+      from: options.name + ' <' + options.email + '>',
+      subject: options.subject,
       transporter: 'smtps://' +
-        process.env.MAIL_ADDRESS +
+        options.email +
         ':' +
-        process.env.MAIL_PASSWORD +
+        options.password +
         '@smtp.gmail.com',
     };
   }
