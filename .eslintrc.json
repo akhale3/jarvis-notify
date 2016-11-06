@@ -1,0 +1,87 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "eslint-plugin-one-variable-per-var",
+    "json"
+  ],
+  "extends": "eslint:recommended",
+  "rules": {
+    "strict": [
+      "error",
+      "safe"
+    ],
+    "max-len": [
+      "error"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "func-names": [
+      "error",
+      "always"
+    ],
+    "func-style": [
+      "error",
+      "expression"
+    ],
+    "newline-before-return": [
+      "error"
+    ],
+    "one-var-declaration-per-line": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-extra-parens": [
+      "error",
+      "all"
+    ],
+    "require-jsdoc": ["error", {
+        "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": false,
+            "ClassDeclaration": false
+        }
+    }],
+    "valid-jsdoc": [
+      "error", {
+        "prefer": {
+          "arg": "param",
+          "argument": "param",
+          "class": "constructor",
+          "virtual": "abstract"
+        },
+        "preferType": {
+          "Boolean": "boolean",
+          "Number": "number",
+          "object": "Object",
+          "String": "string"
+        },
+        "requireReturn": false,
+        "requireReturnType": true,
+        "matchDescription": ".+",
+        "requireParamDescription": true,
+        "requireReturnDescription": true
+      }
+    ]
+  }
+}

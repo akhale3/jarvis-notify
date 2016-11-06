@@ -1,0 +1,8 @@
+*.json
+*.log
+*.txt
+*.md
+
+cover/
+coverage/
+npm-debug.log
