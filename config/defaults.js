@@ -16,5 +16,9 @@ module.exports = {
         options.password +
         '@smtp.gmail.com',
     };
+  },
+  slack: {
+    webhook: 'https://hooks.slack.com/services/' +
+      'T0RG6B6D7/B3058EYR3/fKTL89jZChbtoiSndOkwncvQ'
   }
 };
